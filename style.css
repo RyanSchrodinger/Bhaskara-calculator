@@ -166,37 +166,85 @@ h3 {
 
 
 @media (max-width: 1000px) {
-
-
   .dois {
     grid-template-columns: 1fr;
+    padding: 20px 15px;
+    margin: 20px 10px;
+    gap: 20px;
   }
 
   .esquerda, .direita {
     width: 100%;
+    padding: 15px;
   }
 
   .calcular input {
-    font-size: 18px;
+    font-size: 16px;
+    width: 90%;
   }
 
-  h2{
-    font-size: 30px;
+  h2 {
+    font-size: 26px;
+    text-align: center;
   }
+
+  .um {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
   .um p {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .naveapp {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .naveapp nav {
+    display: flex;
+    gap: 15px;
   }
 }
 
-@media (max-width: 800px) {
-  h2{
-    font-size: 25px;
+@media (max-width: 600px) {
+  h2 {
+    font-size: 22px;
   }
-img{height: 70px;
-width: 160px;}
-.um p {
+
+  .um p {
     font-size: 14px;
   }
 
+  img {
+    width: 160px;
+  }
 
+  .apple {
+    justify-content: center;
+  }
+
+  .naveapp h1 {
+    font-size: 20px;
+  }
+
+  .calcular input {
+    font-size: 15px;
+  }
+
+  .calcular button {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
 }
